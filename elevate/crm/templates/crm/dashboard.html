@@ -1,0 +1,10 @@
+<html>
+
+
+    <h1>This is the Dashboard</h1>
+    <form action="">
+        {% csrf_token %}
+        <a href="{% url 'user-logout' %}"> Logout Here</a>
+    </form>
+
+</html>
